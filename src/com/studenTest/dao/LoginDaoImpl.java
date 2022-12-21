@@ -41,7 +41,7 @@ public class LoginDaoImpl implements LoginDao {
                 user.setU_phone(res.getString("u_phone"));
                 user.setRole(res.getInt("u_role"));
                 user.setIsdelte(res.getInt("u_isdelte"));
-                System.out.println("正确");
+                System.out.println("Login correct");
                 return user;//若信息正确则返回封装好的user对象
 
             }
@@ -49,7 +49,7 @@ public class LoginDaoImpl implements LoginDao {
         }catch (SQLException e){
             e.printStackTrace();
         }
-        System.out.println("错误");
+        System.out.println("Login error");
         return null;//若信息错误则返回空
     }
 }

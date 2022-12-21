@@ -23,12 +23,12 @@
         height: 70%;
         background-color: rgba(255, 250, 205, 0.48);
         margin-left: 10%;
-        margin-top: 50px;
+        margin-top: 10%;
         position: absolute;
     }
     #b {
-        margin-left: 50px;
-        margin-top: 20px;
+        margin-left: 10%;
+        margin-top: 15%;
     }
     input{
         margin-top:15px;
@@ -76,9 +76,9 @@
     stuId
     --%>
 
-    <div style="font-size: 35px;margin-top: 20px;margin-left: 20px">添加学生界面</div>
-    <span>管理员id:&nbsp;${admId}</span>
-    <div id="b">
+    <div style="font-size: 200%;margin-top: 5%;margin-left: 5%">添加学生界面</div><br>
+    <span style="font-size: 100%;margin-top: 5%;margin-left: 5%;color: red">管理员id:&nbsp;${admId}</span>
+    <div id="b" style= "margin-top: 5%;margin-left: 5%">
         学生id:&nbsp;&nbsp;<input type="text"id = "b1"><br>
 
         学生姓名:&nbsp;&nbsp;<input type="text"id = "b2"><br>

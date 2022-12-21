@@ -24,7 +24,7 @@ public class upStu extends HttpServlet {
         String c = req.getParameter("c");
         String d = req.getParameter("d");
         FileService fs = new FileServiceImpl();
-        System.out.println("upStu"+stuId);
+        //System.out.println("upStu"+stuId);
         fs.upScore(stuId,a,b,c,d);
         //System.out.println("upStu"+"a="+a+"b="+b+"c="+c+"d="+d);
 

@@ -15,7 +15,7 @@ public class ToUp extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String admId = req.getParameter("admId");
         String stuId = req.getParameter("stuId");
-        System.out.println("ToUp"+stuId);
+       // System.out.println("ToUp"+stuId);
         //转跳修改界面
         req.setAttribute("admId",admId);
         req.setAttribute("stuId",stuId);

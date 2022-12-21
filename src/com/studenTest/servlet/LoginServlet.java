@@ -57,6 +57,6 @@ public class LoginServlet extends HttpServlet {
             req.getRequestDispatcher("login.jsp").forward(req,resp);
         }
 
-        System.out.println("账户："+u.getU_id()+"     密码："+u.getU_pwd()+"      身份："+u.getRole());
+        System.out.println("id："+u.getU_id()+"     password："+u.getU_pwd()+"      role："+u.getRole());
     }
 }
