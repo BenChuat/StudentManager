@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql://localhost:3306/studenttest?useSSL=false&amp;serverTimezone=Asia/Shanghai&amp;characterEncoding=utf-8&amp;autoReconnect=true</property>
+		<property name="user">root</property>
+		<property name="password">p-0P-0</property>
+		<property name="acquireIncrement">10</property><!--获取连接数-->
+		<property name="initialPoolSize">10</property><!--初始连接数-->
+		<property name="maxPoolSize">100</property><!--最大连接数-->
+		<property name="maxIdleTime">60</property><!--最大空闲时间-->
+		<property name="minPoolSize">5</property><!--最小连接数-->
+	</default-config>
+</c3p0-config>
