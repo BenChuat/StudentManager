@@ -201,7 +201,7 @@ public class FileDaoImpl implements FileDao{
        // String pwd ="a111";
         try {
                 String sql = "INSERT INTO u_user(u_id,u_pwd,u_phone,u_role,u_isdelte,u_name) VALUE("+a+",'a111'"+",'"+c+"',1,0,'"+b+"')";
-            String sql1 = "INSERT INTO userchoose(u_id,c_id,c_score) VALUES("+a+",1001,0)," +
+            String sql1 = "INSERT INTO userchoose(u_id,c_id,c_score) VALUES("+a+",10001,0)," +
                     "("+a+",1002,0),("+a+",1003,0),("+a+",1004,0)";
             FileDaoImpl fd = new FileDaoImpl();
             fd.ins(sql1);

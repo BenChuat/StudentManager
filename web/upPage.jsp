@@ -84,7 +84,7 @@
 
 <div style="font-size: 35px;margin-top: 20px;margin-left: 20px">成绩修改界面</div>
         <br><span >管理员id:&nbsp;${admId}</span><br>
-   <br><span >学生姓名:&nbsp;${stuId}</span><br>
+   <br><span >学生id:&nbsp;${stuId}</span><br>
 
 <div id="b">
     程序设计:&nbsp;&nbsp;<input type="text"id = "a1"><br>
